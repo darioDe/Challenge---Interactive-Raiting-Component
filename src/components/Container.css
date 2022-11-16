@@ -1,0 +1,54 @@
+
+/* CONTAINER BEFORE SUBMITED */
+.off-submited {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* back */
+}
+
+/* CONTAINER BOX  BEFORE SUBMITED */
+.box-off-submited {
+ background-color: hsl(216, 12%, 8%);
+ color: hsl(0, 0%, 100%);
+ margin: 20px;
+ padding: 20px;
+ border-radius: 10px;
+ width: 335px;
+}
+
+/* STAR CONTAINER */
+.star-box {
+ background-color: hsl(213, 19%, 18%);
+ width: 30px;
+ height: 30px;
+ border-radius: 100%;
+ display: grid;
+ place-content: center;
+}
+
+/* STAR */
+.star-box img {
+ height: 11px;
+}
+
+/* TITLE BOX BEFORE SUBMITED */
+h1 {
+ margin: 15px 0;
+ font-size: 1.2rem;
+}
+
+/* PARAGRAPH BEFORE SUBMITED */
+p {
+ color: hsl(217, 12%, 63%);
+ margin-bottom: 20px;
+}
+
+/* THE CONTAINER OF BUTTON'S NUMBERS */
+.raiting-box {
+ height: 40px;
+ display: flex;
+ justify-content: space-between;
+}

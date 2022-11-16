@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Submit.css'
 
 const Submit = ({number, setActiveRaiting, activeRaiting}) => {
 
@@ -12,7 +13,7 @@ const Submit = ({number, setActiveRaiting, activeRaiting}) => {
 
   return (
     <div>
-      <button onClick={handleSubmit}>SUBMIT</button>
+      <button className='button-submit' onClick={handleSubmit}>SUBMIT</button>
     </div>
   )
 }

@@ -1,0 +1,24 @@
+/* BUTTON OF NUMBERS */
+.button-raiting {
+ background-color: hsl(213, 19%, 18%);
+ width: 30px;
+ height: 30px;
+ border-radius: 100%;
+ display: grid;
+ place-content: center;
+ border: none;
+ color: hsl(217, 12%, 63%);
+ font-size: 11px;
+}
+
+/* BUTTON'S NUMBERS IN HOVER STATE */
+.button-raiting:hover {
+ background-color: hsl(25, 97%, 53%);
+ color: hsl(0, 0%, 100%);
+}
+
+
+.button-raiting-active {
+ background-color: hsl(217, 12%, 63%);
+ color: hsl(0, 0%, 100%);
+}
