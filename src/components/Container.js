@@ -23,8 +23,8 @@ const Container = () => {
  }
  
  return (
-    <div className='off-submited'>
-       <div className='box-off-submited'>
+    <div className='submited'>
+       <div className='cont-submited'>
           <div className='star-box' >
             <img src={star} alt="" />
           </div>

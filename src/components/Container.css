@@ -1,6 +1,6 @@
 
 /* CONTAINER BEFORE SUBMITED */
-.off-submited {
+.submited {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 /* CONTAINER BOX  BEFORE SUBMITED */
-.box-off-submited {
+.cont-submited {
  background-color: hsl(216, 12%, 8%);
  color: hsl(0, 0%, 100%);
  margin: 20px;
