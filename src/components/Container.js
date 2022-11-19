@@ -32,8 +32,10 @@ const Container = () => {
           <p> Please let us know how we did with your support request. All feedback is appreciated 
           to help us improve our offering! </p>
           <div className='raiting-box'>
+            {/* NUMBERS BUTTON */}
             <Raiting setNumber={setNumber} number={number} />
           </div>
+            {/* BUTTON TO SUBMIT  */}
           <Submit number={number} activeRaiting={activeRaiting} setActiveRaiting={setActiveRaiting} />
        </div>
     </div>

@@ -3,11 +3,12 @@ import './Submit.css'
 
 const Submit = ({number, setActiveRaiting, activeRaiting}) => {
 
+  // FUNCTION TO CHANGE STATE
   const handleSubmit = () => {
     if (number > 0){
       return setActiveRaiting(true);
     } else {
-      alert("please")
+      alert("Please, select a number!")
     }
   }
 
